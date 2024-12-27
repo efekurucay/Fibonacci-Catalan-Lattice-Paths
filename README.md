@@ -1,11 +1,10 @@
-# Discrete Mathematics Project: Fibonacci and Catalan Paths in a Wall - Akdeniz University CSE 
+# DMPROJECT: Fibonacci and Catalan Paths in a Wall
 
-
-    <div align="center">
+    <p align="center">
       <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/fibonacci.jpg" alt="Fibonacci Path" width="300"/>
       <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/dyckpath.jpg" alt="Dyck Path" width="300"/>
       <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/motzkin.jpg" alt="Motzkin Path" width="300"/>
-    </div>
+    </p>
 
     <br/>
 
@@ -31,7 +30,7 @@
     ## 📁 Project Structure
 
     ```
-    Fibonacci-Catalan-Lattice-Paths/
+    DMPROJECT/
     ├── 3dGridwithPath.py
     ├── altıgenUcgenGridMove.py
     ├── convert_to_dyck.py
