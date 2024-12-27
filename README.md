@@ -9,12 +9,31 @@ This study utilizes the following to analyze the combinatorial properties of lat
 - Transformation techniques
 - Visualization tools
 
+This project is accompanied by an academic paper that provides detailed mathematical analysis and theoretical background. You can find the paper in the `docs/paper` directory.
+
 ## 🛠️ Built With
 
 - Python
 - Matplotlib
 - NumPy
 - NetworkX
+
+## 📁 Project Structure
+
+```
+Fibonacci-Catalan-Lattice-Paths/
+├── src/                    # Source code files
+│   ├── paths/             # Path generation and transformation
+│   ├── visualization/     # Visualization tools
+│   └── utils/            # Utility functions
+├── tests/                 # Test files
+├── docs/                  # Documentation
+│   └── paper/            # Academic paper and related materials
+├── examples/              # Example notebooks and scripts
+├── data/                  # Data files
+├── requirements.txt       # Project dependencies
+└── README.md             # Project documentation
+```
 
 ## 🚀 Getting Started
 
@@ -39,6 +58,16 @@ cd Fibonacci-Catalan-Lattice-Paths
 - Motzkin path transformations
 - 3D lattice paths
 - Parallelogram grid structures
+
+## 📖 Academic Paper
+
+The theoretical foundation and detailed analysis of this project are presented in our academic paper:
+
+**Title**: Fibonacci and Catalan Paths: A Combinatorial Study in Lattice Walls  
+**Authors**: Elif Buse Cinar, Musa Talat Demir, Burak Yalcin, Mustafa Guvez, Yahya Efe Kurucay, Hüseyin Bardakci  
+**Institution**: Department of Computer Science, Akdeniz University, Antalya, Turkey
+
+The complete paper can be found in the `docs/paper` directory.
 
 ## 👥 Contributors
 
