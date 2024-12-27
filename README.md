@@ -62,7 +62,7 @@
         ```bash
         python <script_name>.py
         ```
-        For example:
+        *Example:*
         ```bash
         python fibonnaci_paths.py
         python convert_to_dyck.py
