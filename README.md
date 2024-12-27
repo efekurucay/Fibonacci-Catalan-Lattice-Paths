@@ -1,59 +1,58 @@
-# Fibonacci ve Catalan Kafes Yolları 🔢
+# Fibonacci and Catalan Lattice Paths 🔢
 
-Bu proje, duvar sınırlamalı kafes yollarının kombinatoryal özelliklerini incelemektedir. Fibonacci, Catalan ve Motzkin sayıları gibi klasik dizilerin bu yollarla olan bağlantılarına odaklanılmıştır.
+This project examines the combinatorial properties of wall-constrained lattice paths, focusing on their connections to classical sequences such as Fibonacci, Catalan, and Motzkin numbers.
 
-## 📝 Proje Hakkında
+## 📝 About The Project
 
-Bu çalışma, kafes yollarının kombinatoryal özelliklerini analiz etmek için:
-- Yol oluşturma algoritmaları
-- Dönüşüm teknikleri
-- Görselleştirme araçları
-kullanmaktadır.
+This study utilizes the following to analyze the combinatorial properties of lattice paths:
+- Path generation algorithms
+- Transformation techniques
+- Visualization tools
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Built With
 
 - Python
 - Matplotlib
 - NumPy
 - NetworkX
 
-## 🚀 Başlangıç
+## 🚀 Getting Started
 
-### Gereksinimler
+### Prerequisites
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Kurulum
+### Installation
 
 ```bash
-git clone https://github.com/burakyalcin10/DMPROJECT.git
-cd DMPROJECT
+git clone https://github.com/efekurucay/Fibonacci-Catalan-Lattice-Paths
+cd Fibonacci-Catalan-Lattice-Paths
 ```
 
-## 📊 Özellikler
+## 📊 Features
 
-- Fibonacci yolları oluşturma ve görselleştirme
-- Duvar döşeme yapıları
-- Dyck yolu dönüşümleri
-- Motzkin yolu dönüşümleri
-- 3B kafes yolları
-- Paralelkenar ızgara yapıları
+- Fibonacci path generation and visualization
+- Wall tiling structures
+- Dyck path transformations
+- Motzkin path transformations
+- 3D lattice paths
+- Parallelogram grid structures
 
-## 👥 Katkıda Bulunanlar
+## 👥 Contributors
 
-- Elif Buse Çınar - Kavramsal Tasarım, Orijinal Taslak
-- Musa Talat Demir - Veri Yönetimi, Yazılım, Doğrulama
-- Burak Yalçın - Metodoloji, Ara��tırma, Formal Analiz, Programlama
-- Mustafa Güvez - Kaynaklar, Proje Yönetimi, Denetim
-- Yahya Efe Kurucay - İnceleme & Düzenleme, Görselleştirme
-- Hüseyin Bardakçı - Doğrulama, Kaynaklar
+- Elif Buse Cinar - Conceptualization, Original Draft
+- Musa Talat Demir - Data Curation, Software, Validation
+- Burak Yalcin - Methodology, Investigation, Formal Analysis, Programming
+- Mustafa Guvez - Resources, Project Administration, Supervision
+- Yahya Efe Kurucay - Review & Editing, Visualization
+- Huseyin Bardakci - Validation, Resources
 
-## 📄 Lisans
+## 📄 License
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakınız.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📚 Referanslar
+## 📚 References
 
-Detaylı referanslar için makalenin kaynakça bölümüne bakınız.
+For detailed references, please refer to the bibliography section of the paper.
