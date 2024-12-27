@@ -1,33 +1,31 @@
-# DMPROJECT: Fibonacci and Catalan Paths in a Wall
+# DMPROJECT: Fibonacci and Catalan Paths on a Wall
 
     <p align="center">
-      <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/fibonacci.jpg" alt="Fibonacci Path" width="300"/>
-      <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/dyckpath.jpg" alt="Dyck Path" width="300"/>
-      <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/motzkin.jpg" alt="Motzkin Path" width="300"/>
+      <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/fibonacci.jpg" alt="Fibonacci Path" width="400"/>
+      <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/walltilling.jpg" alt="Wall Tiling" width="400"/>
     </p>
 
-    <br>
+    <p align="center">
+      <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/dyckpath.jpg" alt="Dyck Path" width="400"/>
+      <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/motzkin.jpg" alt="Motzkin Path" width="400"/>
+    </p>
 
-    This project explores the fascinating world of lattice paths constrained by a wall, delving into their connections with classical sequences like Fibonacci, Catalan, and Motzkin numbers. We use Python-based algorithms and visualizations to analyze these paths, incorporating generating functions, kernel methods, and combinatorial mappings.
+    This repository contains the code and resources for a combinatorial study of lattice paths constrained by a wall. The project explores the connections between these paths and classical sequences such as Fibonacci, Catalan, and Motzkin numbers.
 
-    ## 🚀 Features
+    ## Overview
 
-    - **Path Generation:** Algorithms to generate Fibonacci-style lattice paths within a wall grid.
-    - **Path Transformation:** Conversion of generated paths into Dyck and Motzkin paths.
-    - **Visualizations:** Clear and informative visualizations of wall tilings, Fibonacci, Dyck, and Motzkin paths.
-    - **Generating Functions:** Analysis of path properties using generating functions and kernel methods.
-    - **Combinatorial Analysis:** Exploration of the relationships between wall-constrained paths and classical combinatorial sequences.
-    - **3D Path Generation:** Generation and visualization of random paths on a 3D grid.
-    - **Parallelogram Grid:** Visualization of paths on a parallelogram grid.
+    This project uses Python-based algorithms and visualizations to analyze lattice paths systematically. It incorporates generating functions, kernel methods, and combinatorial mappings to provide both visual demonstrations and computational insights. The goal is to bridge theoretical enumeration with practical modeling in discrete mathematics and algorithmic design.
 
-    ## 🧰 Technologies Used
+    ## Key Features
 
-    - **Python:** Core programming language for algorithms and data analysis.
-    - **Matplotlib:** Library for creating visualizations.
-    - **Numpy:** Library for numerical computations.
-    - **Sympy:** Library for symbolic mathematics.
+    - **Path Generation:** Algorithms to generate lattice paths with specific movement rules (N, S, E1, E2) constrained by a wall.
+    - **Path Transformation:** Scripts to transform generated paths into Dyck and Motzkin paths.
+    - **Generating Functions:** Implementation of generating functions to enumerate paths and analyze their combinatorial properties.
+    - **Kernel Method:** Application of the kernel method to solve recurrence relations arising from generating functions.
+    - **Visualizations:** Tools to visualize wall tilings, lattice paths, Dyck paths, and Motzkin paths.
+    - **Exploration of Alternate Grids:** Preliminary work on paths in parallelogram and 3D grids.
 
-    ## 📁 Project Structure
+    ## Project Structure
 
     ```
     DMPROJECT/
@@ -39,49 +37,61 @@
     ├── draw_wall_tiling.py
     ├── fibonnaci_paths.py
     ├── parallelogramGridMove.py
-    ├── randomParallelogramGridMove.py
     ├── randommixed.py
+    ├── randomParallelogramGridMove.py
     ├── README.md
     └── images/
-        ├── fibonacci.jpg
+        ├── 3dpath.jpg
+        ├── decomposition.jpg
         ├── dyckpath.jpg
+        ├── fibonacci.jpg
         ├── motzkin.jpg
-        ├── walltilling.jpg
         ├── parallelogram.png
-        └── 3dpath.jpg
+        └── walltilling.jpg
     ```
 
-    ## ⚙️ How to Run
+    - **Python Scripts:**
+        - `3dGridwithPath.py`: Generates and visualizes random paths on a 3D grid.
+        - `altıgenUcgenGridMove.py`: Draws paths on a hexagonal grid.
+        - `convert_to_dyck.py`: Transforms lattice paths into Dyck paths.
+        - `convert_to_motzkin.py`: Transforms lattice paths into Motzkin paths.
+        - `decompositionFromGeneratingFunction.py`: Implements generating functions for path enumeration.
+        - `draw_wall_tiling.py`: Creates a wall tiling grid for path visualization.
+        - `fibonnaci_paths.py`: Generates Fibonacci-style lattice paths.
+        - `parallelogramGridMove.py`: Visualizes paths on a parallelogram grid.
+        - `randommixed.py`: Generates and visualizes random Catalan paths.
+        - `randomParallelogramGridMove.py`: Generates random paths on a parallelogram grid.
+    - **`images/`:** Contains images used in the README and the paper.
 
-    1.  Clone the repository:
-        ```bash
-        git clone https://github.com/burakyalcin10/DMPROJECT.git
-        cd DMPROJECT
-        ```
-    2.  Run the Python scripts using:
-        ```bash
-        python <script_name>.py
-        ```
-        *Example:*
-        ```bash
-        python fibonnaci_paths.py
-        python convert_to_dyck.py
-        ```
+    ## Getting Started
 
-    ## 🤝 Contributing
+    To run the Python scripts, you need to have Python 3.6 or higher installed. You can execute the scripts directly using the Python interpreter.
 
-    Contributions are welcome! If you have any ideas or improvements, feel free to submit a pull request.
+    ```bash
+    python3 <script_name>.py
+    ```
 
-    ## 📄 License
+    ## Usage
 
-    This project is licensed under the MIT License - see the [LICENSE](https://github.com/burakyalcin10/DMPROJECT/blob/main/LICENSE) file for details.
+    Each script is designed to perform a specific task, such as generating paths, transforming them, or visualizing them. You can modify the parameters within the scripts to explore different path configurations and grid sizes.
 
-    ## ✉️ Contact
+    ## Contributing
 
-    For any questions or feedback, please contact:
-    - Elif Buse Cinar: `elfbusecinar@gmail.com`
+    Contributions to this project are welcome. If you have any suggestions or improvements, feel free to submit a pull request.
 
-    <br>
-    <p align="center">
-        Made with ❤️ by <a href="https://github.com/burakyalcin10">Burak Yalcin</a> and <a href="https://github.com/efekurucay">Yahya Efe Kurucay</a>
-    </p>
+    ## License
+
+    This project is licensed under the MIT License.
+
+    ## Team
+
+    - Elif Buse Cinar
+    - Musa Talat Demir
+    - Burak Yalcin
+    - Mustafa Guvez
+    - Yahya Efe Kurucay
+    - Hüseyin Bardakci
+
+    ## Acknowledgements
+
+    This project was supported by the Department of Computer Science at Akdeniz University.
