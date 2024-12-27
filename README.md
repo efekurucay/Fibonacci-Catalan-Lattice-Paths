@@ -6,7 +6,7 @@
       <img src="https://raw.githubusercontent.com/burakyalcin10/DMPROJECT/main/images/motzkin.jpg" alt="Motzkin Path" width="300"/>
     </p>
 
-    <br/>
+    <br>
 
     This project explores the fascinating world of lattice paths constrained by a wall, delving into their connections with classical sequences like Fibonacci, Catalan, and Motzkin numbers. We use Python-based algorithms and visualizations to analyze these paths, incorporating generating functions, kernel methods, and combinatorial mappings.
 
@@ -81,7 +81,7 @@
     For any questions or feedback, please contact:
     - Elif Buse Cinar: `elfbusecinar@gmail.com`
 
-    <br/>
+    <br>
     <p align="center">
         Made with ❤️ by <a href="https://github.com/burakyalcin10">Burak Yalcin</a> and <a href="https://github.com/efekurucay">Yahya Efe Kurucay</a>
     </p>
